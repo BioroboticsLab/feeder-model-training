@@ -12,6 +12,14 @@ RADII = {name: 100.0 for name in CLASS_NAMES}
 NUM_CLASSES = len(CLASS_NAMES)
 INITIAL_CHANNELS = 16  # localizer encoder width
 
+# ── Localizer scale factor ───────────────────────────────────────────────────
+# The 2019 pretrained localizer was trained at 38 px/tag (BeesBook colony cams).
+# Feeder cam images have ~58 px/tag.  To fine-tune from pretrained weights the
+# input must be downscaled so bees appear at the expected size.
+PRETRAINED_PX_PER_TAG = 38.0
+FEEDER_CAM_PX_PER_TAG = 58.0
+LOCALIZER_SCALE_FACTOR = PRETRAINED_PX_PER_TAG / FEEDER_CAM_PX_PER_TAG  # ~0.655
+
 # ── POLO defaults (from notebooks 03/07) ────────────────────────────────────
 
 POLO_DEFAULTS = {
@@ -108,3 +116,15 @@ def resolve_localizer_data(
             f"Available: {available}"
         )
     return loc_dir
+
+
+def resolve_polo_output(dataset_dir: str | Path, variant: str = "merged") -> Path:
+    """Return the POLO training-runs directory under the dataset."""
+    ds = Dataset(Path(dataset_dir) / "dataset.yaml").load()
+    return ds.get_root("models") / "polo" / variant / "runs"
+
+
+def resolve_localizer_output(dataset_dir: str | Path, variant: str = "cvat") -> Path:
+    """Return the localizer training-runs directory under the dataset."""
+    ds = Dataset(Path(dataset_dir) / "dataset.yaml").load()
+    return ds.get_root("models") / "localizer" / variant / "runs"

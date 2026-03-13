@@ -9,3 +9,6 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["ipython"]
+
+[tool.setuptools]
+py-modules = []

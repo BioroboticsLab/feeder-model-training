@@ -15,6 +15,7 @@ Usage
 
 import argparse
 from datetime import datetime
+from pathlib import Path
 
 import mosaic.tracking.pose_training as pose
 
@@ -49,7 +50,10 @@ def parse_args():
     p.add_argument("--dor", type=float, default=d["dor"], help="Distance of Reference threshold")
     p.add_argument("--augmentation", default=d["augmentation"], help="Augmentation preset")
     p.add_argument("--name", default=None, help="Run name (auto-generated if omitted)")
-    p.add_argument("--output-dir", default="runs/polo", help="Base output directory")
+    p.add_argument(
+        "--output-dir", default=None,
+        help="Base output directory (default: dataset models/polo/<variant>/runs/)",
+    )
     p.add_argument(
         "--no-validate", action="store_true",
         help="Skip test-set validation after training",
@@ -78,6 +82,13 @@ def main():
 
     # Resolve dataset paths
     data_yaml = config.resolve_polo_data(args.dataset, args.variant)
+
+    # Resolve output directory (default: under the dataset)
+    if args.output_dir is None:
+        output_dir = str(config.resolve_polo_output(args.dataset, args.variant))
+    else:
+        output_dir = str(Path(args.output_dir).resolve())
+
     print(f"Dataset: {data_yaml}")
     print(f"Variant: {args.variant}")
     print(f"Device:  {args.device}")
@@ -90,7 +101,7 @@ def main():
 
     # Train
     print(f"\nStarting training: {args.name}")
-    print(f"Output: {args.output_dir}/{args.name}")
+    print(f"Output: {output_dir}/{args.name}")
     print()
 
     results = pose.train_point_model(
@@ -100,7 +111,7 @@ def main():
         imgsz=args.imgsz,
         batch=args.batch,
         device=args.device,
-        project=args.output_dir,
+        project=output_dir,
         name=args.name,
         patience=args.patience,
         loc_loss=config.POLO_DEFAULTS["loc_loss"],
@@ -110,11 +121,11 @@ def main():
     )
 
     # Find best model
-    best_model = pose.find_best_model(args.output_dir)
+    best_model = pose.find_best_model(output_dir)
     print(f"\nBest model: {best_model}")
 
     # Test-set validation
-    if not args.no_validate:
+    if not args.no_validate and best_model is not None:
         print("\nRunning test-set validation...")
         pose.validate_point_model(
             model_path=best_model,

@@ -153,18 +153,25 @@ def evaluate_localizer(args):
         img_h, img_w = image.shape[:2]
         n_images += 1
 
-        # Parse GT from POLO labels
+        # Parse GT from POLO labels (original image coordinates)
         label_path = labels_dir / (img_path.stem + ".txt")
         gt_points = parse_polo_labels(label_path, img_w, img_h) if label_path.exists() else []
 
-        # Run localizer
+        # Rescale image to match pretrained localizer's expected px/tag
+        scale = config.LOCALIZER_SCALE_FACTOR
+        scaled_img = cv2.resize(
+            image, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA,
+        )
+
+        # Run localizer on scaled image
         dets = detect_locations(
-            model, image,
+            model, scaled_img,
             thresholds=args.threshold,
             device=eval_device,
             min_distance=args.min_distance,
         )
-        pred_points = [(d["x"], d["y"], d["class_id"]) for d in dets]
+        # Map detections back to original image coordinates
+        pred_points = [(d["x"] / scale, d["y"] / scale, d["class_id"]) for d in dets]
 
         # Match
         tp, fp, fn, dists = hungarian_match(gt_points, pred_points, args.match_radius)
@@ -185,6 +192,8 @@ def evaluate_localizer(args):
     print(f"  Images:    {n_images}")
     print(f"  Threshold: {args.threshold}")
     print(f"  Match radius: {args.match_radius}px")
+    print(f"  Scale factor: {config.LOCALIZER_SCALE_FACTOR:.3f} "
+          f"({config.PRETRAINED_PX_PER_TAG}/{config.FEEDER_CAM_PX_PER_TAG} px/tag)")
     print(f"  TP: {total_tp}  FP: {total_fp}  FN: {total_fn}")
     print(f"  Precision: {precision:.3f}")
     print(f"  Recall:    {recall:.3f}")

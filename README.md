@@ -35,9 +35,11 @@ This produces the following structure:
 | A | `polo/cvat_only` | CVAT annotations only | POLO baseline |
 | B | `polo/merged` | CVAT + HDF5 + pseudo-labels | POLO merged training |
 | C | `localizer/cvat` | 128x128 patches from CVAT | Localizer baseline |
-| D | `localizer/merged` | CVAT + HDF5 patches | Localizer merged |
-
 All datasets share the same test set (CVAT images only) for fair model comparison. The train/valid/test split is stratified by camera type (feeder vs exit cam) to ensure proportional representation.
+
+### Localizer resolution scaling
+
+The 2019 pretrained localizer was trained on BeesBook colony cam images at **38 px/tag**. Feeder cam images have **~58 px/tag**. To maintain compatibility with pretrained encoder weights, localizer patches are extracted from images pre-scaled by **0.655x** (`38/58`). At inference time, input images must be downscaled by the same factor and detected coordinates mapped back to original image space. This is handled automatically by `evaluate.py` and documented in `config.py`.
 
 ## Quick Start
 

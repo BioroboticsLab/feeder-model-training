@@ -64,7 +64,10 @@ def parse_args():
              "Keras .h5 files are auto-converted to PyTorch.",
     )
     p.add_argument("--name", default=None, help="Run name (auto-generated if omitted)")
-    p.add_argument("--output-dir", default="runs/localizer", help="Base output directory")
+    p.add_argument(
+        "--output-dir", default=None,
+        help="Base output directory (default: dataset models/localizer/<variant>/runs/)",
+    )
     p.add_argument("--seed", type=int, default=42)
 
     args = p.parse_args()
@@ -112,9 +115,15 @@ def main():
     # Augmentation config (matches notebook defaults)
     augment = LocalizerAugmentConfig(flip_h=True, flip_v=True, rotate_90=True)
 
+    # Resolve output directory (default: under the dataset)
+    if args.output_dir is None:
+        output_dir = str(config.resolve_localizer_output(args.dataset, args.variant))
+    else:
+        output_dir = str(Path(args.output_dir).resolve())
+
     # Train
     print(f"Starting training: {args.name}")
-    print(f"Output: {args.output_dir}/{args.name}")
+    print(f"Output: {output_dir}/{args.name}")
     print()
 
     result = pose.train_localizer(
@@ -129,7 +138,7 @@ def main():
         early_stopping_patience=args.patience,
         lr_patience=args.lr_patience,
         device=args.device,
-        project=args.output_dir,
+        project=output_dir,
         name=args.name,
         seed=args.seed,
         augment=augment,
