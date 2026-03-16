@@ -3,6 +3,7 @@
 from pathlib import Path
 
 import torch
+import yaml
 from mosaic.core.dataset import Dataset
 
 # ── Classes ──────────────────────────────────────────────────────────────────
@@ -57,6 +58,22 @@ def auto_device() -> str:
     return "cpu"
 
 
+def ensure_absolute_data_yaml(data_yaml: Path) -> Path:
+    """Ensure data.yaml has an absolute ``path`` key so ultralytics resolves
+    image directories correctly regardless of CWD."""
+    with open(data_yaml) as f:
+        data = yaml.safe_load(f)
+
+    dataset_root = str(data_yaml.parent.resolve())
+    if data.get("path") == dataset_root:
+        return data_yaml
+
+    data["path"] = dataset_root
+    with open(data_yaml, "w") as f:
+        yaml.safe_dump(data, f, default_flow_style=False)
+    return data_yaml
+
+
 def resolve_polo_data(dataset_dir: str | Path, variant: str = "merged") -> Path:
     """Resolve the POLO data.yaml path from a mosaic dataset directory.
 
@@ -82,6 +99,7 @@ def resolve_polo_data(dataset_dir: str | Path, variant: str = "merged") -> Path:
             f"data.yaml not found for variant '{variant}'. "
             f"Available: {available}"
         )
+    ensure_absolute_data_yaml(data_yaml)
     return data_yaml
 
 

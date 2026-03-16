@@ -80,7 +80,7 @@ def parse_args():
 def main():
     args = parse_args()
 
-    # Resolve dataset paths
+    # Resolve dataset paths (ensures absolute path in data.yaml)
     data_yaml = config.resolve_polo_data(args.dataset, args.variant)
 
     # Resolve output directory (default: under the dataset)
