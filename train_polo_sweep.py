@@ -41,7 +41,7 @@ SWEEP_CONFIG = {
     "metric": {"name": "val/f1", "goal": "maximize"},
     "parameters": {
         "loc":          {"values": [3.0, 5.0, 8.0]},
-        "augmentation": {"values": ["none", "moderate", "heavy"]},
+        "augmentation": {"values": ["none", "medium", "heavy"]},
         "batch":        {"values": [8, 16]},
     },
 }
