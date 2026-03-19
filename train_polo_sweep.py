@@ -37,7 +37,7 @@ LOC_LOSS = "mse"
 
 # ── Sweep configuration ─────────────────────────────────────────────────────
 SWEEP_CONFIG = {
-    "method": "bayes",
+    "method": "grid",
     "metric": {"name": "val/f1", "goal": "maximize"},
     "parameters": {
         "loc":          {"values": [3.0, 5.0, 8.0]},
