@@ -48,6 +48,7 @@ def parse_args():
     p.add_argument("--device", default=None, help="Device: '0' (cuda), 'mps', 'cpu'")
     p.add_argument("--loc", type=float, default=d["loc"], help="Localization loss weight")
     p.add_argument("--dor", type=float, default=d["dor"], help="Distance of Reference threshold")
+    p.add_argument("--loc-loss", default=d["loc_loss"], help="Localization loss function")
     p.add_argument("--augmentation", default=d["augmentation"], help="Augmentation preset")
     p.add_argument("--name", default=None, help="Run name (auto-generated if omitted)")
     p.add_argument(
@@ -114,14 +115,15 @@ def main():
         project=output_dir,
         name=args.name,
         patience=args.patience,
-        loc_loss=config.POLO_DEFAULTS["loc_loss"],
+        loc_loss=args.loc_loss,
         loc=args.loc,
         dor=args.dor,
         augmentation=args.augmentation,
     )
 
     # Find best model
-    best_model = pose.find_best_model(output_dir)
+    best_pt = Path(output_dir) / args.name / "weights" / "best.pt"
+    best_model = best_pt if best_pt.exists() else None
     print(f"\nBest model: {best_model}")
 
     # Test-set validation
