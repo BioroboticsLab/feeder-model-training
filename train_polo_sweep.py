@@ -30,6 +30,9 @@ SETTINGS["wandb"] = True
 DATASET_DIR = Path("/mnt/trove/beesbook_feeder_model/feeder_bee_datasets_v1")
 VARIANT = "merged"
 
+# ── Output (local to each machine — NFS mount is read-only) ─────────────────
+OUTPUT_DIR = Path.home() / "runs" / "polo_sweep"
+
 # ── Fixed training settings ─────────────────────────────────────────────────
 EPOCHS = 200
 # try these later on in different sweeps
@@ -85,7 +88,7 @@ def train():
         print(f"\nmodel={cfg.model}, loc={cfg.loc}, lr0={cfg.lr0}, batch={BATCH}\n")
 
         data_yaml = config.resolve_polo_data(DATASET_DIR, VARIANT)
-        output_dir = str(config.resolve_polo_output(DATASET_DIR, VARIANT))
+        output_dir = str(OUTPUT_DIR)
 
         results = pose.train_point_model(
             data_yaml=data_yaml,
