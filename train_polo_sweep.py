@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """W&B Bayesian sweep for POLO merged-variant hyperparameter search.
 
-Sweeps loc weight, augmentation preset, and batch size while keeping
-model (polo26n.yaml), epochs (200), and dor (0.8) fixed.  Maximises
-val/f1 across runs.
+Sweeps model size (n/s/m), loc weight, learning rate, and individual
+augmentation parameters while keeping epochs (200) and dor (0.8) fixed.
+Maximises val/f1 across runs.
 
 Usage
 -----
@@ -31,9 +31,10 @@ DATASET_DIR = Path("/mnt/trove/beesbook_feeder_model/feeder_bee_datasets_v1")
 VARIANT = "merged"
 
 # ── Fixed training settings ─────────────────────────────────────────────────
-MODEL = "polo26n.yaml"
 EPOCHS = 200
-IMGSZ = 640
+# try these later on in different sweeps
+IMGSZ = 640 # fixed — safe for n/s/m on 640px; model is swept instead
+BATCH = 8   # fixed — safe for n/s/m on 8 GB VRAM; model is swept instead
 DOR = 0.8
 PATIENCE = 50
 LOC_LOSS = "mse"
@@ -43,9 +44,21 @@ SWEEP_CONFIG = {
     "method": "bayes",
     "metric": {"name": "val/f1", "goal": "maximize"},
     "parameters": {
+        "model":        {"values": ["polo26n.yaml", "polo26s.yaml", "polo26m.yaml"]},
         "loc":          {"min": 1.0, "max": 10.0},
-        "augmentation": {"values": ["none", "medium", "heavy"]},
-        "batch":        {"values": [8, 16]},
+        "lr0":          {"min": 1e-4, "max": 1e-1, "distribution": "log_uniform_values"},
+        "lrf":          {"min": 1e-3, "max": 1e-1, "distribution": "log_uniform_values"},
+        "weight_decay": {"min": 1e-5, "max": 1e-2, "distribution": "log_uniform_values"},
+        # ── Augmentation ────────────────────────────────────────────────
+        "degrees":      {"min": 0.0, "max": 45.0},
+        "translate":    {"min": 0.0, "max": 0.3},
+        "scale":        {"min": 0.0, "max": 0.5},
+        "flipud":       {"min": 0.0, "max": 0.5},
+        "fliplr":       {"min": 0.0, "max": 1.0},
+        "mosaic":       {"min": 0.0, "max": 1.0},
+        "mixup":        {"min": 0.0, "max": 0.3},
+        "hsv_s":        {"min": 0.0, "max": 0.7},
+        "hsv_v":        {"min": 0.0, "max": 0.4},
     },
 }
 
@@ -57,17 +70,29 @@ def train():
         cfg = run.config
         run_name = f"sweep_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
 
-        print(f"\nloc={cfg.loc}, aug={cfg.augmentation}, batch={cfg.batch}\n")
+        aug = {
+            "degrees": cfg.degrees,
+            "translate": cfg.translate,
+            "scale": cfg.scale,
+            "flipud": cfg.flipud,
+            "fliplr": cfg.fliplr,
+            "mosaic": cfg.mosaic,
+            "mixup": cfg.mixup,
+            "hsv_s": cfg.hsv_s,
+            "hsv_v": cfg.hsv_v,
+        }
+
+        print(f"\nmodel={cfg.model}, loc={cfg.loc}, lr0={cfg.lr0}, batch={BATCH}\n")
 
         data_yaml = config.resolve_polo_data(DATASET_DIR, VARIANT)
         output_dir = str(config.resolve_polo_output(DATASET_DIR, VARIANT))
 
         results = pose.train_point_model(
             data_yaml=data_yaml,
-            model=MODEL,
+            model=cfg.model,
             epochs=EPOCHS,
             imgsz=IMGSZ,
-            batch=cfg.batch,
+            batch=BATCH,
             device=config.auto_device(),
             project=output_dir,
             name=run_name,
@@ -75,7 +100,10 @@ def train():
             loc_loss=LOC_LOSS,
             loc=cfg.loc,
             dor=DOR,
-            augmentation=cfg.augmentation,
+            augmentation=aug,
+            lr0=cfg.lr0,
+            lrf=cfg.lrf,
+            weight_decay=cfg.weight_decay,
         )
 
         # ── Extract POLO metrics (L = localization, not B = box) ────────
