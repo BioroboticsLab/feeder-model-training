@@ -53,15 +53,7 @@ SWEEP_CONFIG = {
         "lrf":          {"min": 1e-3, "max": 1e-1, "distribution": "log_uniform_values"},
         "weight_decay": {"min": 1e-5, "max": 1e-2, "distribution": "log_uniform_values"},
         # ── Augmentation ────────────────────────────────────────────────
-        "degrees":      {"min": 0.0, "max": 45.0},
-        "translate":    {"min": 0.0, "max": 0.3},
-        "scale":        {"min": 0.0, "max": 0.5},
-        "flipud":       {"min": 0.0, "max": 0.5},
-        "fliplr":       {"min": 0.0, "max": 1.0},
-        "mosaic":       {"min": 0.0, "max": 1.0},
-        "mixup":        {"min": 0.0, "max": 0.3},
-        "hsv_s":        {"min": 0.0, "max": 0.7},
-        "hsv_v":        {"min": 0.0, "max": 0.4},
+        "augmentation": {"values": ["none", "light", "medium", "heavy"]},
     },
 }
 
@@ -73,19 +65,7 @@ def train():
         cfg = run.config
         run_name = f"sweep_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
 
-        aug = {
-            "degrees": cfg.degrees,
-            "translate": cfg.translate,
-            "scale": cfg.scale,
-            "flipud": cfg.flipud,
-            "fliplr": cfg.fliplr,
-            "mosaic": cfg.mosaic,
-            "mixup": cfg.mixup,
-            "hsv_s": cfg.hsv_s,
-            "hsv_v": cfg.hsv_v,
-        }
-
-        print(f"\nmodel={cfg.model}, loc={cfg.loc}, lr0={cfg.lr0}, batch={BATCH}\n")
+        print(f"\nmodel={cfg.model}, aug={cfg.augmentation}, loc={cfg.loc}, lr0={cfg.lr0}, batch={BATCH}\n")
 
         data_yaml = config.resolve_polo_data(DATASET_DIR, VARIANT)
         output_dir = str(OUTPUT_DIR)
@@ -121,7 +101,7 @@ def train():
                 loc_loss=LOC_LOSS,
                 loc=cfg.loc,
                 dor=DOR,
-                augmentation=aug,
+                augmentation=cfg.augmentation,
                 lr0=cfg.lr0,
                 lrf=cfg.lrf,
                 weight_decay=cfg.weight_decay,
