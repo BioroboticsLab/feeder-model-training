@@ -90,48 +90,58 @@ def train():
         data_yaml = config.resolve_polo_data(DATASET_DIR, VARIANT)
         output_dir = str(OUTPUT_DIR)
 
-        results = pose.train_point_model(
-            data_yaml=data_yaml,
-            model=cfg.model,
-            epochs=EPOCHS,
-            imgsz=IMGSZ,
-            batch=BATCH,
-            device=config.auto_device(),
-            project=output_dir,
-            name=run_name,
-            patience=PATIENCE,
-            loc_loss=LOC_LOSS,
-            loc=cfg.loc,
-            dor=DOR,
-            augmentation=aug,
-            lr0=cfg.lr0,
-            lrf=cfg.lrf,
-            weight_decay=cfg.weight_decay,
-        )
+        # Ultralytics' W&B callback calls wb.run.finish() inside on_train_end,
+        # so any wandb.log() after train_point_model() returns lands on a finished
+        # run and is silently dropped (→ null on the dashboard).
+        # Fix: inject val/f1 into trainer.metrics before each epoch is committed,
+        # so it is logged while the run is still active.
+        import ultralytics.utils.callbacks.wb as _wb_mod
+        _orig_on_fit = _wb_mod.callbacks.get("on_fit_epoch_end")
 
-        # ── Extract POLO metrics (L = localization, not B = box) ────────
-        if not hasattr(results, "results_dict") or not results.results_dict:
-            wandb.log({"error": True})
-            print("WARNING: Training returned no results_dict — skipping metric logging")
-            return
+        def _on_fit_with_f1(trainer):
+            p = trainer.metrics.get("metrics/precision(L)", 0)
+            r = trainer.metrics.get("metrics/recall(L)", 0)
+            trainer.metrics["val/f1"] = 2 * p * r / (p + r) if (p + r) > 0 else 0
+            if _orig_on_fit:
+                _orig_on_fit(trainer)
 
-        d = results.results_dict
-        precision = d.get("metrics/precision(L)", 0)
-        recall    = d.get("metrics/recall(L)", 0)
-        map100    = d.get("metrics/mAP100(L)", 0)
-        f1 = (
-            2 * precision * recall / (precision + recall)
-            if (precision + recall) > 0
-            else 0
-        )
+        _wb_mod.callbacks["on_fit_epoch_end"] = _on_fit_with_f1
 
-        wandb.log({
-            "val/precision": precision,
-            "val/recall":    recall,
-            "val/f1":        f1,
-            "val/mAP100":    map100,
-        })
-        print(f"\nP:{precision:.3f}  R:{recall:.3f}  F1:{f1:.3f}  mAP100:{map100:.3f}")
+        try:
+            results = pose.train_point_model(
+                data_yaml=data_yaml,
+                model=cfg.model,
+                epochs=EPOCHS,
+                imgsz=IMGSZ,
+                batch=BATCH,
+                device=config.auto_device(),
+                project=output_dir,
+                name=run_name,
+                patience=PATIENCE,
+                loc_loss=LOC_LOSS,
+                loc=cfg.loc,
+                dor=DOR,
+                augmentation=aug,
+                lr0=cfg.lr0,
+                lrf=cfg.lrf,
+                weight_decay=cfg.weight_decay,
+            )
+        finally:
+            # Restore so the next sweep run starts clean.
+            if _orig_on_fit is not None:
+                _wb_mod.callbacks["on_fit_epoch_end"] = _orig_on_fit
+            else:
+                _wb_mod.callbacks.pop("on_fit_epoch_end", None)
+
+        # Print final metrics locally (run is already finished by ultralytics).
+        if hasattr(results, "results_dict") and results.results_dict:
+            d = results.results_dict
+            p = d.get("metrics/precision(L)", 0)
+            r = d.get("metrics/recall(L)", 0)
+            f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0
+            print(f"\nP:{p:.3f}  R:{r:.3f}  F1:{f1:.3f}  mAP100:{d.get('metrics/mAP100(L)', 0):.3f}")
+        else:
+            print("WARNING: Training returned no results_dict")
 
 
 if __name__ == "__main__":

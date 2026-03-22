@@ -5,6 +5,8 @@ description = "Training scripts for feeder bee detection models (POLO and locali
 requires-python = ">=3.10"
 dependencies = [
     "mosaic-behavior[polo,localizer] @ git+https://github.com/ecodylicscience/mosaic.git",
+    "ultralytics>=8.4.7",
+    "wandb>=0.25.1",
 ]
 
 [project.optional-dependencies]
