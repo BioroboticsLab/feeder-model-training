@@ -15,6 +15,8 @@ Usage
 """
 
 import sys
+import time
+import traceback
 from datetime import datetime
 from pathlib import Path
 
@@ -59,6 +61,18 @@ SWEEP_CONFIG = {
 
 WANDB_PROJECT = "beesbook-feeder"
 
+MAX_RETRIES  = 3
+RETRY_DELAY  = 60  # seconds between attempts — gives NFS/GPU time to recover
+
+
+def _is_transient(exc: BaseException) -> bool:
+    """Return True for infrastructure errors that are worth retrying."""
+    if isinstance(exc, (OSError, IOError)):
+        return True
+    if isinstance(exc, RuntimeError) and "CUDA" in str(exc):
+        return True
+    return False
+
 
 def train():
     with wandb.init() as run:
@@ -88,24 +102,38 @@ def train():
         _wb_mod.callbacks["on_fit_epoch_end"] = _on_fit_with_f1
 
         try:
-            results = pose.train_point_model(
-                data_yaml=data_yaml,
-                model=cfg.model,
-                epochs=EPOCHS,
-                imgsz=IMGSZ,
-                batch=BATCH,
-                device=config.auto_device(),
-                project=output_dir,
-                name=run_name,
-                patience=PATIENCE,
-                loc_loss=LOC_LOSS,
-                loc=cfg.loc,
-                dor=DOR,
-                augmentation=cfg.augmentation,
-                lr0=cfg.lr0,
-                lrf=cfg.lrf,
-                weight_decay=cfg.weight_decay,
-            )
+            results = None
+            for attempt in range(1, MAX_RETRIES + 1):
+                # Fresh directory name per attempt so partial runs don't conflict.
+                attempt_name = run_name if attempt == 1 else f"{run_name}_retry{attempt - 1}"
+                try:
+                    results = pose.train_point_model(
+                        data_yaml=data_yaml,
+                        model=cfg.model,
+                        epochs=EPOCHS,
+                        imgsz=IMGSZ,
+                        batch=BATCH,
+                        device=config.auto_device(),
+                        project=output_dir,
+                        name=attempt_name,
+                        patience=PATIENCE,
+                        loc_loss=LOC_LOSS,
+                        loc=cfg.loc,
+                        dor=DOR,
+                        augmentation=cfg.augmentation,
+                        lr0=cfg.lr0,
+                        lrf=cfg.lrf,
+                        weight_decay=cfg.weight_decay,
+                    )
+                    break  # success — exit retry loop
+                except Exception as exc:
+                    if _is_transient(exc) and attempt < MAX_RETRIES:
+                        print(f"\nWARNING: attempt {attempt}/{MAX_RETRIES} failed ({type(exc).__name__}: {exc})")
+                        print(traceback.format_exc())
+                        print(f"Retrying in {RETRY_DELAY}s...\n")
+                        time.sleep(RETRY_DELAY)
+                    else:
+                        raise  # non-transient error or out of retries — let sweep mark it crashed
         finally:
             # Restore so the next sweep run starts clean.
             if _orig_on_fit is not None:
@@ -114,7 +142,7 @@ def train():
                 _wb_mod.callbacks.pop("on_fit_epoch_end", None)
 
         # Print final metrics locally (run is already finished by ultralytics).
-        if hasattr(results, "results_dict") and results.results_dict:
+        if results is not None and hasattr(results, "results_dict") and results.results_dict:
             d = results.results_dict
             p = d.get("metrics/precision(L)", 0)
             r = d.get("metrics/recall(L)", 0)
