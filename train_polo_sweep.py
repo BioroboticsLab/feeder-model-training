@@ -2,7 +2,7 @@
 """W&B Bayesian sweep for POLO feeder-only hyperparameter search.
 
 Sweeps model size (s/m), loc weight, learning rate, and augmentation
-while keeping epochs (200) and dor (0.8) fixed.  Ranges tightened from
+while keeping epochs (200) and dor (0.3) fixed.  Ranges tightened from
 prior sweep results: polo26m + medium/heavy aug + lr0 ~0.003-0.015
 performed best.  Valid/test are feeder-cam only to match deployment.
 Maximises val/f1 across runs.
@@ -41,7 +41,7 @@ EPOCHS = 200
 # try these later on in different sweeps
 IMGSZ = 640 # fixed — safe for n/s/m on 640px; model is swept instead
 BATCH = 8   # fixed — safe for n/s/m on 8 GB VRAM; model is swept instead
-DOR = 0.8
+DOR = 0.3
 PATIENCE = 50
 LOC_LOSS = "mse"
 

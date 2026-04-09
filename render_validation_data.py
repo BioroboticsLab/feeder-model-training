@@ -12,15 +12,13 @@ from scipy.optimize import linear_sum_assignment
 from ultralytics import YOLO
 
 # ── Configuration ────────────────────────────────────────────────────────────
-DATASET_DIR = Path("/mnt/trove/beesbook_feeder_model/feeder_bee_datasets_v1")
-VARIANT = "cvat_only"
-MODEL_PATH = Path("/home/johan/runs/polo_sweep/sweep_20260321_134359/weights/best.pt")
+MODEL_PATH = Path("/home/johan/runs/polo_sweep/sweep_20260409_033533/weights/best.pt")
 OUTPUT_DIR = Path("/home/johan/feeder-model-training/rendered_validation")
 
 MATCH_RADIUS = 75.0  # pixels — same as evaluate.py default
 IMGSZ = 640
 CONF_THRESHOLD = 0.25
-DOR = 0.8
+DOR = 0.3
 
 CLASS_NAMES = ["UnmarkedBee", "MarkedBee", "BeeInCell", "UpsideDownBee"]
 # BGR colors
@@ -49,7 +47,7 @@ def load_gt(label_path: Path, img_w: int, img_h: int):
 
 def run_polo_model(model, img_path: Path):
     """Run POLO inference; returns list of (x, y, class_id, confidence)."""
-    results = model(str(img_path), imgsz=IMGSZ, conf=CONF_THRESHOLD, verbose=False)
+    results = model(str(img_path), imgsz=IMGSZ, conf=CONF_THRESHOLD, dor=DOR, verbose=False)
     preds = []
     for r in results:
         if r.locations is None or len(r.locations) == 0:
@@ -126,8 +124,8 @@ def draw_comparison(img, gt_points, pred_points, matched_gt, matched_pred, unmat
 
 
 def main():
-    img_dir = DATASET_DIR / "models" / "polo" / VARIANT / "valid" / "images"
-    label_dir = DATASET_DIR / "models" / "polo" / VARIANT / "valid" / "labels"
+    img_dir = Path("/home/johan/feeder-model-training/data/feeder_only/valid/images")
+    label_dir = Path("/home/johan/feeder-model-training/data/feeder_only/valid/labels")
 
     aligned_dir = OUTPUT_DIR / "aligned"
     close_dir = OUTPUT_DIR / "close"
