@@ -1,4 +1,5 @@
 runs/
+data/
 __pycache__/
 *.pyc
 *.pyo
@@ -8,4 +9,5 @@ dist/
 build/
 .env
 wandb/
+rendered_validation/
 .DS_Store

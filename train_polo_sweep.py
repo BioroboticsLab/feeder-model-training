@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""W&B Bayesian sweep for POLO merged-variant hyperparameter search.
+"""W&B Bayesian sweep for POLO feeder-only hyperparameter search.
 
-Sweeps model size (n/s/m), loc weight, learning rate, and individual
-augmentation parameters while keeping epochs (200) and dor (0.8) fixed.
+Sweeps model size (s/m), loc weight, learning rate, and augmentation
+while keeping epochs (200) and dor (0.8) fixed.  Ranges tightened from
+prior sweep results: polo26m + medium/heavy aug + lr0 ~0.003-0.015
+performed best.  Valid/test are feeder-cam only to match deployment.
 Maximises val/f1 across runs.
 
 Usage
@@ -28,9 +30,8 @@ import mosaic.tracking.pose_training as pose
 
 SETTINGS["wandb"] = True
 
-# ── Dataset (shared NFS mount, works on both cirrus and thria) ──────────────
-DATASET_DIR = Path("/mnt/trove/beesbook_feeder_model/feeder_bee_datasets_v1")
-VARIANT = "merged"
+# ── Dataset (local symlinked variant — feeder-only valid/test) ─────────────
+DATA_YAML = Path(__file__).resolve().parent / "data" / "feeder_only" / "data.yaml"
 
 # ── Output (local to each machine — NFS mount is read-only) ─────────────────
 OUTPUT_DIR = Path.home() / "runs" / "polo_sweep"
@@ -49,13 +50,12 @@ SWEEP_CONFIG = {
     "method": "bayes",
     "metric": {"name": "val/f1", "goal": "maximize"},
     "parameters": {
-        "model":        {"values": ["polo26n.yaml", "polo26s.yaml", "polo26m.yaml"]},
-        "loc":          {"min": 1.0, "max": 10.0},
-        "lr0":          {"min": 1e-4, "max": 1e-1, "distribution": "log_uniform_values"},
-        "lrf":          {"min": 1e-3, "max": 1e-1, "distribution": "log_uniform_values"},
-        "weight_decay": {"min": 1e-5, "max": 1e-2, "distribution": "log_uniform_values"},
-        # ── Augmentation ────────────────────────────────────────────────
-        "augmentation": {"values": ["none", "light", "medium", "heavy"]},
+        "model":        {"values": ["polo26s.yaml", "polo26m.yaml"]},
+        "loc":          {"min": 3.0, "max": 7.0},
+        "lr0":          {"min": 1e-3, "max": 3e-2, "distribution": "log_uniform_values"},
+        "lrf":          {"min": 1e-3, "max": 2e-2, "distribution": "log_uniform_values"},
+        "weight_decay": {"min": 1e-4, "max": 2e-3, "distribution": "log_uniform_values"},
+        "augmentation": {"values": ["medium", "heavy"]},
     },
 }
 
@@ -81,7 +81,7 @@ def train():
 
         print(f"\nmodel={cfg.model}, aug={cfg.augmentation}, loc={cfg.loc}, lr0={cfg.lr0}, batch={BATCH}\n")
 
-        data_yaml = config.resolve_polo_data(DATASET_DIR, VARIANT)
+        data_yaml = config.ensure_absolute_data_yaml(DATA_YAML)
         output_dir = str(OUTPUT_DIR)
 
         # Ultralytics' W&B callback calls wb.run.finish() inside on_train_end,

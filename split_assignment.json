@@ -1,0 +1,4986 @@
+{
+  "exitcamA_2025_06_23_17_18_23__frame_000010.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000035.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000055.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000110.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000185.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000230.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000250.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000255.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_06_23_17_18_23__frame_000290.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000010.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000040.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000075.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000120.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000160.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000180.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000205.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000240.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000270.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_05_06_22_07__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000005.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000045.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000090.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000105.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000140.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000165.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000195.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000230.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000250.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_07_16_25_06__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000000.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000020.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000035.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000050.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000075.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000120.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000205.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000250.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_10_21_06_37__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000010.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000040.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000070.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000105.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000125.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000160.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000220.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000240.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000260.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamA_2025_07_13_17_56_39__frame_000290.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000005.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000035.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000050.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000085.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000105.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000135.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000210.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000255.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_06_23_16_02_39__frame_000280.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000005.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000040.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000060.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000100.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000150.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000200.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000220.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000230.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_05_18_10_28__frame_000265.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000015.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000050.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000075.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000105.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000135.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000190.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000230.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000270.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_07_18_08_18__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000005.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000035.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000060.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000080.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000095.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000115.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000130.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000160.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000210.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_10_00_45_15__frame_000270.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000005.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000020.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000050.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000065.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000100.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000135.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000215.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000255.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamB_2025_07_13_00_48_12__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000000.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000020.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000035.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000050.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000090.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000135.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000165.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000185.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000215.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_06_23_01_22_45__frame_000250.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000020.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000055.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000090.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000120.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000155.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000190.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000230.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000265.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_03_06_48_06__frame_000295.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000025.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000090.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000110.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000135.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000160.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000200.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000220.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000240.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000260.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_05_15_12_46__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000000.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000035.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000045.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000070.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000105.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000110.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000125.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000200.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_07_15_27_54__frame_000240.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000025.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000040.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000060.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000085.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000105.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000160.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000180.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000210.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000230.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_10_16_23_10__frame_000255.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000000.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000060.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000155.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000160.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000190.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000205.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000260.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000265.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamC_2025_07_13_19_27_12__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000015.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000035.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000055.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000075.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000125.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000160.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000195.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000240.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000265.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_03_21_23_23__frame_000290.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000005.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000055.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000125.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000170.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000180.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000190.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000215.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000245.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000260.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_07_16_45_28__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000110.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000125.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000155.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000175.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000215.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000235.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000255.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000265.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "exitcamD_2025_07_13_14_39_45__frame_000285.png": {
+    "cam_type": "exit",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_01_18_55_09__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_02_12_35_48__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamA_2025_07_03_16_08_23__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_03_16_08_23__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_03_16_08_23__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_03_16_08_23__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_03_16_08_23__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_03_16_08_23__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_03_16_08_23__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_03_16_08_23__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_08_37_21__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_08_37_21__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_08_37_21__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_08_37_21__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_08_37_21__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_08_37_21__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_08_37_21__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000085.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_10_28_39__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000100.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_04_19_00_13__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_05_17_12_17__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_07_09_00_49__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_08_33_12__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000100.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000150.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_11_55_25__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_09_15_40_03__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_10_11_32_51__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_11_11_50_07__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000085.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000245.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_12_16_02_13__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_13_10_08_09__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_14_18_47_06__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000085.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamA_2025_07_15_10_49_14__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_20_18_41_50__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_21_19_40_49__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_06_53_04__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_22_06_53_04__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_22_06_53_04__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_22_06_53_04__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_22_06_53_04__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_10_20_11__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_22_14_47_01__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_23_17_14_13__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_24_06_46_24__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_25_09_59_06__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_26_12_05_53__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_29_18_29_37__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000100.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_07_57_44__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000030.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_18_53_28__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000100.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_06_30_20_32_17__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_02_09_06_30__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_03_08_39_46__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000245.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_29_54__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_04_12_40_36__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamB_2025_07_09_06_33_45__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_33_45__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_33_45__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000150.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_06_56_15__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000030.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_09_09_22_59__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000030.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_11_12_43_15__frame_000245.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamB_2025_07_12_16_43_23__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_12_16_43_23__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_12_16_43_23__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_12_16_43_23__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_12_16_43_23__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_12_16_43_23__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_12_16_43_23__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_12_16_43_23__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamB_2025_07_15_14_51_45__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_20_08_28_45__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_21_18_33_53__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_22_17_50_21__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_23_06_34_43__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_24_14_33_33__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000210.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_25_07_26_05__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_06_26_12_48_13__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_26_12_48_13__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_26_12_48_13__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_26_12_48_13__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_26_12_48_13__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_26_12_48_13__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_28_11_55_14__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_29_07_03_02__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000210.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_07_29_52__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_19_41_18__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_19_41_18__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_06_30_19_41_18__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_01_15_36_00__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_01_15_36_00__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_02_12_37_40__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000210.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_03_14_15_53__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000100.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_08_33_06__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_17_06_31__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_04_20_09_16__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000210.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_05_16_20_36__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000075.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_07_08_55_02__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000100.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_10_26_09__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000025.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000245.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_14_47_59__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_09_20_57_07__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_10_09_00_37__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamC_2025_07_15_19_27_50__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_15_19_27_50__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamC_2025_07_15_19_27_50__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_20_13_39_32__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_21_12_02_49__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000245.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_13_32_24__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000130.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_22_16_39_10__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000030.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000085.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_23_10_00_24__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "valid"
+  },
+  "feedercamD_2025_06_24_16_12_19__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_24_16_12_19__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_24_16_12_19__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_24_16_12_19__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_24_16_12_19__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000085.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_25_20_54_54__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_29_08_08_02__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_29_08_08_02__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_29_08_08_02__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_09_01_30__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000140.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_10_52_56__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000060.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000110.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_06_30_18_13_33__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000040.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000150.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000200.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_02_07_43_23__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000045.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000085.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_04_13_07_20__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "test"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_05_19_26_15__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000105.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_07_08_45_08__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_06_27_09__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000050.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000080.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000120.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000155.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000260.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_12_50_38__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000065.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000085.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000145.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000265.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_09_14_07_35__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000165.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000205.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000225.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000240.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000280.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_10_12_43_57__frame_000295.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000030.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000180.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000215.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000245.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_11_10_53_29__frame_000285.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000000.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000020.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000135.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000190.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000235.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_12_14_17_32__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000010.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000030.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000090.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000160.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000185.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000230.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_13_14_21_19__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000005.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000095.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000115.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000175.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000220.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000250.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000270.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_14_07_28_11__frame_000290.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000015.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000035.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000055.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000070.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000125.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000170.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000195.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000245.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000255.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  },
+  "feedercamD_2025_07_15_19_14_42__frame_000275.png": {
+    "cam_type": "feeder",
+    "split": "train"
+  }
+}
