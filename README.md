@@ -120,3 +120,6 @@ runs/polo/merged_20260313_143022/
 | 1 | MarkedBee | Rare in feeder cam images, more common in exit cam |
 | 2 | BeeInCell | Absent from CVAT annotations (no comb cells at feeder). Present in HDF5/pseudo-label sources only. |
 | 3 | UpsideDownBee | Bees walking upside down on feeder |
+
+## WandB
+See wandb-sweep branch for wandb testing
