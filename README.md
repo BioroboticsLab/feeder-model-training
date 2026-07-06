@@ -1,125 +1,117 @@
 # Feeder Model Training
 
-Training scripts for feeder bee detection models. Supports two model architectures:
+End-to-end training and evaluation for the **feeder bee detector** used by the
+BeesBook system. The pipeline goes from raw video to a deployable
+point-detection model and a reproducible evaluation:
 
-- **POLO** -- Point-detection model based on YOLO (ultralytics fork). Predicts bee locations as single points with class-specific radii on full-resolution images.
-- **Localizer** -- Lightweight fully-convolutional heatmap model (~248K params). Classifies 128x128 grayscale patches as containing a bee or background.
+```
+video → frames → CVAT annotation → POLO labels → feeder-only split → train → evaluate
+```
 
-Both models detect four classes: `UnmarkedBee`, `MarkedBee`, `BeeInCell`, `UpsideDownBee`.
+The detector is **POLO** — a point-detection fork of YOLO (ultralytics) whose
+`locate` task predicts bee locations as single points with class-specific radii.
+The deployed model is `polo26n`. The legacy 2019 BeesBook **localizer** is kept
+as a baseline for comparison. Four classes: `UnmarkedBee`, `MarkedBee`,
+`BeeInCell`, `UpsideDownBee`.
+
+[`mosaic`](https://github.com/ecodylicscience/mosaic) does the heavy lifting
+(frame extraction, CVAT conversion, POLO/localizer training); this repo is the
+thin, reproducible workflow on top of it.
+
+## Workflow (notebooks)
+
+Run in order; each notebook has a `DATASET_BASE` config cell at the top.
+
+| Notebook | Does |
+|----------|------|
+| [`notebooks/01_frame_extraction_and_annotation_prep.ipynb`](notebooks/01_frame_extraction_and_annotation_prep.ipynb) | index videos + k-means frame sampling, stage for CVAT, convert CVAT XML → POLO labels, build the feeder-only split |
+| [`notebooks/02_train_polo.ipynb`](notebooks/02_train_polo.ipynb) | train deployed `polo26n`; optional n/s/m retrain, sweep reference, localizer baseline |
+| [`notebooks/03_evaluation.ipynb`](notebooks/03_evaluation.ipynb) | **definitive evaluation** — the paper's numbers |
+
+[`config.py`](config.py) is the single shared module: classes, radii, the locked
+training hyperparameters (`POLO_FINAL`), the fixed evaluation settings, and the
+point-detection helpers (`load_gt`, `point_nms`, `match`, `polo_predict`,
+`localizer_predict`, `run_point_eval`).
 
 ## Setup
 
-Requires Python 3.10+ and PyTorch with CUDA support (see [pytorch.org](https://pytorch.org/get-started/locally/)).
+Requires Python ≥ 3.10 and (for training) a CUDA GPU.
 
 ```bash
-# Install mosaic-behavior with POLO and localizer extras
-pip install "mosaic-behavior[polo,localizer] @ git+https://github.com/ecodylicscience/mosaic.git"
-
-# Clone this repo
-git clone <repo-url>
-cd feeder-model-training
+pip install -e ".[notebooks,wandb]"
+# pulls mosaic-behavior[polo,localizer] from git, plus scipy/matplotlib/pandas
 ```
 
-## Dataset
+`polo` and `pose` extras both ship under the `ultralytics` name and conflict —
+this repo needs `[polo]` (the mooch443/POLO fork providing the `locate` task),
+which `mosaic-behavior[polo,localizer]` already pins.
 
-The training data is distributed as a tarball (`feeder_bee_datasets_v1.tar.gz`), separate from this repo. Extract it on the training machine:
+## Definitive evaluation
 
-```bash
-tar xzf feeder_bee_datasets_v1.tar.gz
-```
+[`03_evaluation.ipynb`](notebooks/03_evaluation.ipynb) is the single source of
+truth for the paper. Each model's raw detections (confidence ≥ 0.25) are
+de-duplicated with **one explicit, class-agnostic, confidence-ranked radius NMS**
+(`config.point_nms`, **30 px**), then scored against ground truth by
+**class-agnostic Hungarian matching** (**75 px**). The 30 px suppression equals the
+deployed POLO setting (DoR 0.3 × 100 px radius) and is applied uniformly to POLO and
+the localizer, so the comparison is apples-to-apples (we don't use POLO's internal
+DoR-NMS, which needs a `data.yaml` baked into the checkpoint). It produces three
+outputs:
 
-This produces the following structure:
+1. **Old localizer vs POLO**
+2. **Model-size comparison** (polo26n / s / m): F1, P/R, classification, params, speed
+3. **Deployed-model deep dive** (polo26n): per-class, confusion, per-session,
+   per-image error histogram, failure gallery
 
-| Dataset | Path | Contents | Purpose |
-|---------|------|----------|---------|
-| A | `polo/cvat_only` | CVAT annotations only | POLO baseline |
-| B | `polo/merged` | CVAT + HDF5 + pseudo-labels | POLO merged training |
-| C | `localizer/cvat` | 128x128 patches from CVAT | Localizer baseline |
-All datasets share the same test set (CVAT images only) for fair model comparison. The train/valid/test split is stratified by camera type (feeder vs exit cam) to ensure proportional representation.
+Configure it at the top:
 
-### Localizer resolution scaling
+- `SPLIT` — `test` (default) | `valid` | `train`
+- `CAMERA_FILTER` — `feeder` (default, deployment) | `exit` | `all`
+  - **Caveat:** exit-cam images are *train-only* in the split, so evaluating on
+    them is **not** held out. The notebook flags this.
+- `MODELS` / `LOCALIZER_MODELS` — paths to trained weights. Any model left
+  `None` falls back to Johan's reported numbers, shown labelled `reported`
+  alongside the recomputed rows for cross-check.
 
-The 2019 pretrained localizer was trained on BeesBook colony cam images at **38 px/tag**. Feeder cam images have **~58 px/tag**. To maintain compatibility with pretrained encoder weights, localizer patches are extracted from images pre-scaled by **0.655x** (`38/58`). At inference time, input images must be downscaled by the same factor and detected coordinates mapped back to original image space. This is handled automatically by `evaluate.py` and documented in `config.py`.
+The deployment-matched run is `SPLIT='test'`, `CAMERA_FILTER='feeder'`; it should
+reproduce **test F1 ≈ 0.929** (P 0.941 / R 0.917, classification ≈ 99.9%), and
+`SPLIT='valid'` → **F1 ≈ 0.990**. See [`docs/model-comparison.md`](docs/model-comparison.md)
+for the full hyperparameter/architecture tables and headline numbers.
 
-## Quick Start
+## Data & weights you provide
 
-```bash
-# Train POLO on merged dataset (recommended)
-python train_polo.py --dataset /path/to/feeder_bee_datasets_v1
+Neither datasets nor weights are committed. Point the notebooks at:
 
-# Train POLO on CVAT-only baseline
-python train_polo.py --dataset /path/to/feeder_bee_datasets_v1 --variant cvat_only
+- a **mosaic `Dataset`** (the `DATASET_BASE` root) with the feeder media /
+  CVAT-converted labels;
+- trained **weights** for `04` — the final `polo26n` (deployed:
+  `bb_hpc_dev/polo26_feedercams.pt`), and optionally `polo26s` / `polo26m` /
+  the localizer to recompute those rows.
 
-# Train localizer on CVAT patches
-python train_localizer.py --dataset /path/to/feeder_bee_datasets_v1
+The published numbers come from the **final feeder-only dataset** (1246 images,
+test 136) and the final weights on the training machine. An earlier local
+snapshot is useful only for smoke-testing the pipeline wiring (smaller split,
+no exit cams) — its numbers will not match the report.
 
-# Train localizer with pretrained weights
-python train_localizer.py --dataset /path/to/feeder_bee_datasets_v1 \
-    --weights /path/to/localizer_2019_weights.pt
+## Reproducibility notes
 
-# Evaluate a trained POLO model
-python evaluate.py --type polo --dataset /path/to/feeder_bee_datasets_v1 \
-    --model runs/polo/merged_20260313/weights/best.pt
-
-# Evaluate a trained localizer
-python evaluate.py --type localizer --dataset /path/to/feeder_bee_datasets_v1 \
-    --model runs/localizer/cvat_20260313/weights/best.pt
-```
-
-## Configuration
-
-All scripts accept `--help` for full argument documentation. Key parameters:
-
-### train_polo.py
-
-| Argument | Default | Description |
-|----------|---------|-------------|
-| `--dataset` | (required) | Path to `feeder_bee_datasets_v1/` |
-| `--variant` | `merged` | `merged` or `cvat_only` |
-| `--model` | `polo26n.yaml` | Architecture (nano/small/medium/large) |
-| `--epochs` | 200 | Max training epochs |
-| `--batch` | 16 (8 for merged) | Batch size |
-| `--patience` | 50 | Early stopping patience |
-| `--loc` | 5.0 | Localization loss weight |
-| `--dor` | 0.8 | Distance of Reference threshold |
-| `--augmentation` | `heavy` | Augmentation preset |
-| `--device` | auto | `0` (cuda), `mps`, `cpu` |
-
-### train_localizer.py
-
-| Argument | Default | Description |
-|----------|---------|-------------|
-| `--dataset` | (required) | Path to `feeder_bee_datasets_v1/` |
-| `--variant` | `cvat` | `cvat` or `merged` |
-| `--epochs` | 300 | Max training epochs |
-| `--batch-size` | 128 | Batch size |
-| `--lr` | 0.001 | Learning rate |
-| `--patience` | 40 | Early stopping patience |
-| `--weights` | None | Pretrained weights (.pt or .h5) |
-| `--freeze-encoder` | False | Train head only |
-| `--device` | auto | `0` (cuda), `mps`, `cpu` |
-
-## Output Structure
-
-Training runs are saved to `runs/<model_type>/<run_name>/`:
-
-```
-runs/polo/merged_20260313_143022/
-    weights/
-        best.pt        # best checkpoint (by validation metric)
-        last.pt        # final epoch checkpoint
-    results.csv        # per-epoch metrics
-    args.yaml          # training configuration
-```
+- The split is **frozen** in `split_assignment.json`; rebuilding with seed 42 only
+  matches given the identical CVAT image set.
+- Evaluation settings are fixed in `config.py` (imgsz 640, conf 0.25, explicit
+  `point_nms` suppression at 30 px, Hungarian match radius 75 px). POLO's internal
+  DoR-NMS is disabled (`DOR = 0.0`) in favor of the shared `point_nms`.
+- **Training DoR caveat:** during the *sweep*, val F1 was logged at DoR 0.8 (≈ 0.85);
+  the deployed model and the 30 px explicit-NMS eval give test ≈ 0.93 / val ≈ 0.99.
+- **Model config string:** `config.POLO_MODEL_CFG = "polo26n.yaml"`. An earlier
+  POLO build used `polov8n.yaml` — switch it if the installed POLO fork rejects
+  the config.
+- Inference speed is hardware-specific; `04` records the device — cite the GPU.
 
 ## Classes
 
 | ID | Name | Notes |
 |----|------|-------|
-| 0 | UnmarkedBee | Most common class |
-| 1 | MarkedBee | Rare in feeder cam images, more common in exit cam |
-| 2 | BeeInCell | Absent from CVAT annotations (no comb cells at feeder). Present in HDF5/pseudo-label sources only. |
-| 3 | UpsideDownBee | Bees walking upside down on feeder |
-
-## WandB
-See wandb-sweep branch for wandb testing
+| 0 | UnmarkedBee | most common (~97%) |
+| 1 | MarkedBee | rare on feeder cams (~2.5%), more common on exit cams |
+| 2 | BeeInCell | no feeder-cam samples (untested on feeders) |
+| 3 | UpsideDownBee | bees walking upside down on the feeder |

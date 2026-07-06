@@ -1,0 +1,5 @@
+model,F1,P,R,ClassAcc,source,split,camera
+polo26n,0.9241,0.8909,0.9598,0.999,recomputed,test,feeder
+polo26s,0.9266,0.9079,0.9461,0.9979,recomputed,test,feeder
+polo26m,0.9256,0.8971,0.9559,0.999,recomputed,test,feeder
+localizer,0.5202,0.5358,0.5054,0.843,recomputed,test,feeder

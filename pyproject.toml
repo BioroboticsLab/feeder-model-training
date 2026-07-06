@@ -1,14 +1,20 @@
 [project]
 name = "feeder-model-training"
 version = "0.1.0"
-description = "Training scripts for feeder bee detection models (POLO and localizer)"
+description = "End-to-end training + evaluation for POLO/localizer feeder bee detection models"
 requires-python = ">=3.10"
 dependencies = [
     "mosaic-behavior[polo,localizer] @ git+https://github.com/ecodylicscience/mosaic.git",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
 ]
 
 [project.optional-dependencies]
-dev = ["ipython"]
+# Notebook execution + experiment tracking
+notebooks = ["jupyter", "ipython", "ipykernel"]
+wandb = ["wandb>=0.16"]
+dev = ["ipython", "ruff"]
 
 [tool.setuptools]
-py-modules = []
+py-modules = ["config"]

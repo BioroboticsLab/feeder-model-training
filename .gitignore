@@ -8,3 +8,11 @@ build/
 .env
 wandb/
 .DS_Store
+.ipynb_checkpoints/
+
+# Datasets and large artifacts (live with the mosaic Dataset / on the training machine)
+data/
+frames/
+*.pt
+*.torchscript
+*.h5
